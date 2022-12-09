@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Default components which you can use in your app. */
+@layer components {
+
+}
+
+/* Default style for html elements (like h1, h2, p, etc.). */
+@layer base {
+    /* TODO: Add your own fonts. */
+    body {
+        font-family: Poppins, sans-serif;
+    }
+
+    h1 {
+        @apply mb-4 2xl:mb-6 font-bold text-4xl md:text-5xl 2xl:text-6xl;
+    }
+
+    h2 {
+        @apply mb-3 sm:mb-4 2xl:mb-6 font-medium text-3xl md:text-4xl 2xl:text-5xl;
+    }
+
+    h3 {
+        @apply mb-1 sm:mb-3 2xl:mb-4 font-medium text-xl md:text-2xl 2xl:text-3xl;
+    }
+
+    h4 {
+        @apply mb-1 sm:mb-3 2xl:mb-4 text-xl sm:text-2xl 2xl:text-3xl;
+    }
+
+    h5 {
+        @apply mb-1 sm:mb-3 lg:mb-4 text-lg sm:text-xl lg:text-2xl;
+    }
+
+    h6 {
+        @apply mb-1 sm:mb-3 lg:mb-4 text-lg sm:text-xl lg:text-2xl;
+    }
+}
