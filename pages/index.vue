@@ -11,6 +11,8 @@
 </template>
 
 <script lang="ts" setup>
+// import { ref } from 'vue'
+
 const bool = ref(false)
 
 const { data: users } = await useFetch('/api/users')
